@@ -5,8 +5,9 @@ The list consists of <Name, Artists> and is printed on the console screen.
 
 Once the scraping is done, Spotify user credentials are asked and API creates a new playlist "From Gaana".
 Each item in the scraped list is used to search for a song ID using Spotify APIs. If found, the song is added to "From Gaana".
+The success rate of transfer in my trials is about 95% and it might vary upon user's playlists. All songs are not transferred because Spotify may have an incomplete collection or search algorithms might be inefficient. Particularly, if you have uncommon songs with titles in a non-latin script or titles with redundant information, Spotify's search APIs tend to fail.
 
-It uses 'Spotipy 2.16.1' by Plamere - https://github.com/plamere/spotipy in the backend to simplify API calls to the Spotify servers.
+The program uses 'Spotipy 2.16.1' by Plamere - https://github.com/plamere/spotipy in the backend to simplify API calls to the Spotify servers.
 Uses 'Selenium 3.141.1' to execute the webdriver. https://www.selenium.dev/
 Uses 'BeautifulSoup4 3.9.4' to parse Gaana playlist page. https://pypi.org/project/beautifulsoup4/
 Developed and tested on Microsoft Windows 10 20H2 with Python 3.7.3
