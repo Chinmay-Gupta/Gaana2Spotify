@@ -10,6 +10,11 @@ It uses 'Spotipy 2.16.1' by Plamere - https://github.com/plamere/spotipy in the 
 Uses 'Selenium 3.141.1' to execute the webdriver. https://www.selenium.dev/
 Uses 'BeautifulSoup4 3.9.4' to parse Gaana playlist page. https://pypi.org/project/beautifulsoup4/ 
 
+Disclaimer:
+I do not own any of Gaana, Spotify, Spotipy, Selenium or BeautifulSoup. 
+'Gaana' music streaming service is a copyright property of Gamma Gaana Ltd.
+'Spotify' music streaming service is a copyright property of Spotify AB.
+
 Installation:
 1. Install Chrome Webdriver and have its path in the system environment variable $WEBDRIVER_PATH
     Make sure your webdriver and Chrome browser versions are compatible. For downloads and info, check https://chromedriver.chromium.org/downloads
