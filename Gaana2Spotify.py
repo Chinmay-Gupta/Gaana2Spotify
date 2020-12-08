@@ -47,8 +47,8 @@ def wrap_up(successfully_ported, failed_to_port):
 
 def __main__():
     # Check OS Type
-    if get_os_type() != WINDOWS:
-        print("Platform Unsupported. This program works on Microsoft Windows")
+    if get_os_type() != WINDOWS or get_os_type() != LINUX:
+        print("Platform Unsupported. This program works on Microsoft Windows or Linux")
         exit(1)
 
     # List of Songs that'll be scraped

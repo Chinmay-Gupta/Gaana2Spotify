@@ -8,7 +8,8 @@ Each item in the scraped list is used to search for a song ID using Spotify APIs
 
 It uses 'Spotipy 2.16.1' by Plamere - https://github.com/plamere/spotipy in the backend to simplify API calls to the Spotify servers.
 Uses 'Selenium 3.141.1' to execute the webdriver. https://www.selenium.dev/
-Uses 'BeautifulSoup4 3.9.4' to parse Gaana playlist page. https://pypi.org/project/beautifulsoup4/ 
+Uses 'BeautifulSoup4 3.9.4' to parse Gaana playlist page. https://pypi.org/project/beautifulsoup4/
+Developed and tested on Microsoft Windows 10 20H2 with Python 3.7.3
 
 Disclaimer:
 I do not own any of Gaana, Spotify, Spotipy, Selenium or BeautifulSoup. 
